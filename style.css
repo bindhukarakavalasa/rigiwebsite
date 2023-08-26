@@ -386,20 +386,12 @@ section{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #34495e;
-    color: white;
-    top: 0;
-    position: fixed;
+    color: black;
     width: 100%;
   }
   .logo{
     font-size: 24px;
     margin: 14px;
-    color: white;
-  }
-  
-  .navbar a:hover{
-    color: blue;
   }
   
   .menu ul{
@@ -410,15 +402,8 @@ section{
   }
   .menu li a{
     text-decoration: none;
-    color: white;
     padding: 16px;
     display: block;
-  }
-  .menu li:hover{
-    background-color: #48637e;
-  }
-  .menu li a:hover{
-    color: white;
   }
   .toggle{
     position: absolute;
@@ -426,7 +411,6 @@ section{
     right: 16px;
     display: none;
     font-size: 20px;
-    color: white;
   }
   @media (max-width: 768px) {
     .toggle {
